@@ -6,7 +6,7 @@ function Radio() {
         <ul>
             <h1><strong>SOCIAL</strong></h1>
             <li><Link to="/profile" className="btn">Home</Link></li>
-            <li><Link to="/sobre" className="btn">Sobre Mim</Link></li>
+            <li><Link to="/competencias" className="btn">Competencias</Link></li>
             <li><Link to="/experiencias" className="btn">Experiencias</Link></li>
 
             <div class="card">

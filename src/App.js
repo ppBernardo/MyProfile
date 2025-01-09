@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import Profile from './Componentes/profile';
+import Competencias from './Componentes/competencias';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/competencias" element={<Competencias />} />
       </Routes>
     </Router>
   );
@@ -35,7 +37,7 @@ function Home() {
           <>
             <header className="App-header">
             </header>
-            <button onClick={handleClick}>generate profile</button>
+            <button onClick={handleClick}>generate</button>
           </>
         ) : (
           loading && (
