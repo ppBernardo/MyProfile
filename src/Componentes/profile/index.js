@@ -1,7 +1,7 @@
 import './style.css'
 import Radio from '../nav';
 import Bio from '../mybio';
-import profile from '../../imgs/Profile.jpeg'
+import profile from '../../imgs/Profile.png'
 
 function Profile() {
 

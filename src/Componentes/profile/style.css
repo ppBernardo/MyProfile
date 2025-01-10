@@ -61,7 +61,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(24, 24, 24);
+  background-color: #3c3b39;
   transition-duration: .5s;
   color: rgb(155, 155, 155);
   font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
@@ -72,6 +72,7 @@ ul {
 .cardContainer:hover .profileDiv {
   transform: translateX(-25%) translateY(-20%);
   transition-duration: .5s;
+  opacity: 70%;
 }
 
 .infoDiv {

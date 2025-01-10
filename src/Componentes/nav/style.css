@@ -9,7 +9,7 @@
 .btn:visited {
  text-transform: uppercase;
  text-decoration: none;
- color: white;
+ color: #1d1d1d;
  padding: 20px 30px;
  border: 1px solid;
  border-radius: 1000px;
@@ -21,6 +21,7 @@
 .btn:hover {
  transform: translateY(-5px);
  box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+ color: wheat;
 }
 
 .btn:active {
@@ -41,12 +42,12 @@
 }
 
 .btn:hover::after {
- background-color: rgb(0, 238, 255);
+ background-color: #3c3b39;
  transform: scaleX(1.4) scaleY(1.5);
  opacity: 0;
 }
 
-.card {
+.card_nav {
     margin-top: 25px ;
     width: fit-content;
     height: fit-content;

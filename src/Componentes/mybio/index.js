@@ -8,7 +8,7 @@ function Bio() {
                 <span class="yellow"></span>
                 <span class="green"></span>
             </div>
-
+        
             <h1>Bernardo Pereira    </h1>
             <p>
             Olá! Sou Bernardo Pereira, tenho 21 anos e sou apaixonado por tecnologia e desenvolvimento de software. <br></br>Atualmente, trabalho como Analista de Sistemas Júnior, onde coloco em prática minhas habilidades em desenvolvimento full stack.
