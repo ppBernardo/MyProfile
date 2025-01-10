@@ -12,12 +12,15 @@
   transition: .4s;
   overflow: hidden;
   color: black;
+  opacity: 70%;
 }
 
 .card_bio:hover {
   width: 600px;
   height: 500px;
   transform: skew(0deg);
+  color: wheat;
+  opacity: 100%;
 }
 
 .align {

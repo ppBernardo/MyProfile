@@ -9,6 +9,7 @@
 .page {
   width: 100vw;
   height: 100vh;
+  background-color: #3c3b39;
 }
 
 h1 {
@@ -80,7 +81,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: aliceblue;
+  background-color: #5c5a55;
   z-index: 1;
 }
 
@@ -91,7 +92,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  background-color: aliceblue;
+  background-color: #5c5a55;
   font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
   gap: 2px;
 }
