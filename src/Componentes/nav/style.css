@@ -48,14 +48,13 @@
 }
 
 .card_nav {
-    margin-top: 25px ;
+    padding-top: 50px;
     width: fit-content;
     height: fit-content;
     background-color: #3c3b39;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px 25px;
     gap: 20px;
     padding-left: auto;
   }

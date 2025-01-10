@@ -18,7 +18,6 @@ function App() {
 
 function Home() {
   const navigate = useNavigate();
-  const [inputValue, setInputValue] = useState(''); // Valor do input
   const [loading, setLoading] = useState(false);
   const [showHome, setShowHome] = useState(true);
 
