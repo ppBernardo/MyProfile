@@ -13,7 +13,7 @@ function Experiencias() {
             <div className='body'>
                 <div className='conteudo'>
 
-                    <div class="card" id='maisdados'>
+                    <div class="card_exp" id='maisdados'>
                         <img src={maisdados}></img>
                         <div class="card-front">
                             <p class="title">Full Stack Developer</p>
@@ -26,7 +26,7 @@ function Experiencias() {
                         </div>
                     </div>
 
-                    <div class="card">
+                    <div class="card_exp">
                         <img src={maisdistribuidora} id='maisdistribuidora'></img>
                         <div class="card-front">
                             <p class="title">Analista de desenvolvimento de Sistemas</p>
