@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-route
 import { useState } from 'react';
 import Profile from './Componentes/profile';
 import Competencias from './Componentes/competencias';
+import Experiencias from './Componentes/experiencias'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/competencias" element={<Competencias />} />
+        <Route path="/experiencias" element={<Experiencias />}/>
       </Routes>
     </Router>
   );

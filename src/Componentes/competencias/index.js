@@ -27,7 +27,9 @@ function Competencias() {
               <div class="card__content">
                 <span class="card__title">REACT</span>
                 <p class="card__describe">
-                  O React permite dividir uma página inteira em partes, chamadas de componentes. Assim é possível trabalhar cada um desses componentes de forma individual e independente                </p>
+                  O React permite dividir uma página inteira em partes, chamadas de componentes. Assim é possível trabalhar cada um desses componentes de forma individual e independente
+                  <br></br><br></br>(Tecnologia usada para desenvolver esta página)
+                  </p>
               </div>
             </div>
             <div class="card">
