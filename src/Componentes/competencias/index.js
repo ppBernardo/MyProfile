@@ -12,8 +12,6 @@ import cssicon from '../../imgs/cssicon.png'
 import giticon from '../../imgs/giticon.png'
 
 function Competencias() {
-
-
   return (
     <div className='page'>
       <div className='header'>

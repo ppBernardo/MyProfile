@@ -40,7 +40,7 @@ ul {
 .cardContainer {
   width: 500px;
   height: auto;
-  background-color: rgb(255, 255, 255);
+  background-color: #3c3b39;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,6 +51,7 @@ ul {
 .cardContainer img{
   width: 100%;
   height: 100%;
+  border-radius: 30px;
 }
 
 .profileDiv {
@@ -67,12 +68,14 @@ ul {
   font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
+  border-radius: 20px;
 }
 
 .cardContainer:hover .profileDiv {
   transform: translateX(-25%) translateY(-20%);
   transition-duration: .5s;
   opacity: 70%;
+  border-radius: 30px;
 }
 
 .infoDiv {
@@ -84,6 +87,7 @@ ul {
   justify-content: center;
   background-color: #5c5a55;
   z-index: 1;
+  border-radius: 30px;
 }
 
 .nameDiv {
@@ -96,6 +100,7 @@ ul {
   background-color: #5c5a55;
   font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
   gap: 2px;
+  border-radius: 30px;
 }
 
 .name {
@@ -113,6 +118,7 @@ ul {
   font-weight: 400;
   color: rgb(48, 48, 48);
   margin-bottom: 5px;
+
 }
 
 .socialDiv {
@@ -128,6 +134,7 @@ ul {
 
 .infoDiv a {
   width: 50%;
+
 }
 
 .socials {
