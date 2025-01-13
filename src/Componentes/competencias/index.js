@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'; // Adicionando a importação de useState e useEffect
+import React, { useState, useEffect } from 'react';
 import './style.css'
 import Radio from '../nav';
 import react from '../../imgs/logo512.png'
@@ -12,6 +12,8 @@ import cssicon from '../../imgs/cssicon.png'
 import giticon from '../../imgs/giticon.png'
 
 function Competencias() {
+
+
   return (
     <div className='page'>
       <div className='header'>
@@ -21,7 +23,8 @@ function Competencias() {
       <div className='body'>
         <div className='conteudo'>
 
-          <div class="container scroll-1">
+          <div className='container scroll-1'>
+
             <div class="card">
               <div class="card__image"><img src={react} className='reacticon'></img></div>
               <div class="card__content">
@@ -29,7 +32,7 @@ function Competencias() {
                 <p class="card__describe">
                   O React permite dividir uma página inteira em partes, chamadas de componentes. Assim é possível trabalhar cada um desses componentes de forma individual e independente
                   <br></br><br></br>(Tecnologia usada para desenvolver esta página)
-                  </p>
+                </p>
               </div>
             </div>
             <div class="card">
