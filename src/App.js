@@ -31,7 +31,7 @@ function Home() {
 
   return (
     <div className="App">
-      <div className="container">
+      <div className="container_generate">
         {showHome ? (
           <>
             <header className="App-header">

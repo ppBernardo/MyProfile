@@ -3,14 +3,18 @@
 .page {
   width: 100vw;
   height: 100vh;
+  background-color: #3c3b39;
 }
 
+.header{
+
+}
 h1 {
-  color: rgb(31, 31, 31);
+  color: wheat;
   text-align: center;
 }
 
-ul {
+ul {  
   list-style-type: none;
   padding: 20px;
 }
@@ -19,9 +23,84 @@ li {
   padding: 50px;
   padding-left: 20px;
 }
-.conteudo{
+
+.scroll-1::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scroll-1::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #888;
+}
+
+.container * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.container {
   display: flex;
-  justify-content: center;
+  overflow-x: scroll;
+  padding: 24px;
+  width: 600px;
+  height: 500px;
+  scroll-snap-type: x mandatory;
+  scroll-padding-top: 24px;
+  border-radius: 8px;
+  gap: 20px;
+}
+
+.container .card {
+  flex: 0 0 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: rgb(66, 66, 65);
+  scroll-snap-align: start;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); /* Mais desfoque */
+}
+
+.card .card__image {
+  flex: 1;
+  height: 140px;
   align-items: center;
-  height: 400px;
+
+}
+.card img{
+  width: 200px;
+  position: relative;
+  left: 30%;
+  top: 20%;
+}
+.reacticon{
+  animation: rotacaoInfinita 5s linear infinite; /* Aplica a animação */
+}
+@keyframes rotacaoInfinita {
+  from {
+    transform: rotate(0deg); /* Começa na posição inicial */
+  }
+  to {
+    transform: rotate(360deg); /* Vai até 360 graus, criando um ciclo completo */
+  }
+}
+
+.card .card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  padding-top: 20%;
+}
+
+.card .card__content .card__title {
+  font-size: 32px;
+  color: wheat;
+  text-transform: capitalize;
+}
+
+.card .card__content .card__describe {
+  color: wheat;
+  font-size: 16px;
 }

@@ -17,9 +17,12 @@
   justify-content: center;
   align-items: center;
 }
-.container{
+.container_generate{
   color: white;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Courier New', Courier, monospace; /* Usando fontes monospace */
 }
 
