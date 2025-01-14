@@ -1,6 +1,7 @@
 .card_bio {
-  width: 400px;
-  height: 300px;
+  max-width: 400px;
+  max-height: 300px;
+  width: 100vw;
   padding: 0.5rem;
   background: rgba(198, 198, 198, 0.34);
   border-radius: 8px;
@@ -16,8 +17,8 @@
 }
 
 .card_bio:hover {
-  width: 600px;
-  height: auto;
+  max-width: 600px;
+  max-height: 700px;
   padding-bottom: 30px;
   transform: skew(0deg);
   color: wheat;
