@@ -33,7 +33,8 @@ li {
 
 .card_exp {
     color: #1b1b1b;
-    width: 400px;
+    max-width: 400px;
+    width: 90vw;
     height: 500px;
     position: relative;
     outline: 6px solid wheat;
