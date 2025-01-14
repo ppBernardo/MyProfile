@@ -29,6 +29,7 @@ h1 {
   display: flex;
   padding-top: auto;
   font-family: 'Roboto', sans-serif;
+  background-color: #3c3b39;
 }
 
 ul {

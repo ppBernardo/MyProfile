@@ -5,6 +5,9 @@
   height: 100vh;
   background-color: #3c3b39;
 }
+.body{
+  background-color: #3c3b39;
+}
 
 .conteudo{
     display: flex;
