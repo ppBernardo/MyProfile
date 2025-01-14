@@ -20,6 +20,7 @@ h1 {
   align-items: center;
   justify-content: center;
   display: flex;
+  
 }
 
 .body {
@@ -30,12 +31,15 @@ h1 {
   padding-top: auto;
   font-family: 'Roboto', sans-serif;
   background-color: #3c3b39;
+  flex-wrap: wrap; /* Permite que os itens "quebrem" para a próxima linha */
+
 }
 
 ul {
   list-style-type: none;
   display: flex;
   gap: auto;
+  flex-wrap: wrap; /* Permite que os itens "quebrem" para a próxima linha */
 }
 
 .cardContainer {

@@ -17,7 +17,8 @@
 
 .card_bio:hover {
   width: 600px;
-  height: 500px;
+  height: auto;
+  padding-bottom: 30px;
   transform: skew(0deg);
   color: wheat;
   opacity: 100%;
